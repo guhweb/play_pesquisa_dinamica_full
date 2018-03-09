@@ -1,0 +1,19 @@
+{
+    "name": "gustavoweb/pesquisa_dinamica",
+    "description": "Sistema de pesquisa dinamica",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Web",
+            "email": "gustavo@upinside.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CRUD\\": "Source/Crud/"
+        }
+    }
+}

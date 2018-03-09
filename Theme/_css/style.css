@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main_header {
+    width: 100%;
+    background-image: url('../_img/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding: 40px;
+}
+
+.main_header_content {
+    max-width: 800px;
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.main_header_search h1 {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.main_header_search_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_header_search_form input {
+    flex-basis: calc(((100% - 50px) / 2) - 10px);
+    width: 100%;
+    padding: 12px 6px;
+    font-size: 0.8em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.main_header_search_form button {
+    flex-basis: 50px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    background-color: #D36833;
+    color: #FFF;
+    font-size: 1em;
+}
+
+.main_header_search_form button:hover {
+    cursor: pointer;
+    background-color: #BC622F;
+}
+
+.main_list {
+    width: 100%;
+    padding: 40px;
+}
+
+.main_list_content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_list_header {
+    flex-basis: 100%;
+    border-bottom: 2px solid #D36833;
+    margin-bottom: 20px;
+}
+
+.main_list_header h1 {
+    color: #D36833;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.main_list_item {
+    flex-basis: calc(50% - 10px);
+    border: 1px solid #EBEBEB;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 5px auto;
+    padding: 20px;
+}
+
+.main_list_item h2 {
+    font-size: 1.1em;
+    color: #D36833;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.main_list_item p {
+    font-size: 0.875em;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 3px;
+}
+
+/* 720px */
+@media (max-width: 45em) {
+
+    .main_list_header h1 {
+        font-size: 1em;
+    }
+    .main_list_item {
+        flex-basis: 100%;
+    }
+}
